@@ -1,0 +1,101 @@
+body, h1, h2, h3, h4, p, p1, p2,  a {
+    margin: 0;
+    font-size: 100%; font-weight: normal;
+  }
+  *{
+    box-sizing:border-box;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .header {
+    height: 10vh;
+    background-color: #eee;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .header-title {
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin:auto;
+  }
+  
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display:flex;
+  }
+  .content{
+    font-size: 0;
+    margin: 50px auto 25px auto;
+    
+  }
+  .card-contact{
+    width: 30%;
+    height: 80%;
+    margin-bottom: 30px;
+    padding:20px 30px 50px 30px;
+    display:inline-block;
+    margin-right: 90px;
+    border: rgba(190, 24, 24, 0.4);
+    border-style: double;
+    text-align: auto;
+  }
+  .card-image{
+    align-items: flex;
+    width: auto;
+
+  }
+  .card{
+    width: 30%;
+    height: 80%;
+    margin-bottom: 60px;
+    padding:20px 30px 50px 30px;
+    display:inline-block;
+    margin-right: 90px;
+    box-shadow: 2px 3px 2px rgba(190, 24, 24, 0.4);
+   
+    
+  }
+   .no-right-margin{
+    margin-right: 0;
+  }
+  .card-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .card-text{
+    font-size: 16px;
+  }
+   .menu{
+    border: 2px solid rgb(99, 47, 158); 
+    display: block;    
+    cursor: pointer;
+    margin: 20px 15px 10px 15px;
+    }
+  .menu, .submenu{
+    margin: 20px;
+    padding: 15px;
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+    font-size: 20px;
+    color:rgb(14, 2, 2);
+  }
+   .footer{
+    height:300px;
+    background-color: black;
+   display:flex;
+   }
+  .footer-author{
+    font-size:24px;
+    color: white;
+    margin: auto;
+  }
